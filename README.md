@@ -14,6 +14,18 @@ This processsor utilized RISC architecture.
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/1644b80e-4aa5-4119-acc2-07af9b2214ba)
 ### B-Type(Branch) instruction:
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/5f8a1c50-57b0-464c-a39c-b9fba5ff28dd)
+## Block diagram
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/e1127915-6b2e-4b0a-a661-5fe13fdfe123)
+### Main decoder
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/060c096e-3d18-47c0-aacf-fa46652a5b6f)
+### ALU decoder
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/899a716b-581d-4718-8a3d-3f26464467ec)
+
+## Design steps
+There are 4 state elements program counter, instruction memory, register file and data memory
+
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/956928dd-d6cc-4bf1-8ef0-34cf50dd7b7c)
+**Program counter** : It is 32 bit register. This points the address of the current instruction and PCnext holds address of next instruction.
 
 
 
