@@ -26,8 +26,11 @@ There are 4 state elements program counter, instruction memory, register file an
 
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/956928dd-d6cc-4bf1-8ef0-34cf50dd7b7c)
 **Program counter** : It is 32 bit register. This points the address of the current instruction and PCnext holds address of next instruction.
-
-
+**Instruction memory**: It takes 32 bit instruction address input, A and read the 32 bit data from that address onto the read data output, RD.
+**Register file**: The 32-element × 32-bit register file has two read ports and one write port. 
+**Data memory** has a single read/write port. If the write enable, WE, is 1, it writes data
+WD into address A on the rising edge of the clock. If the write enable is 0, it reads address A
+onto RD.
 
 ```
             dut.Instruction_Memory.mem[0] = 32'hFFC4A303;
