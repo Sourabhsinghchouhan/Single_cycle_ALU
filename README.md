@@ -21,6 +21,9 @@ This processsor utilized RISC architecture.
 ### ALU decoder
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/899a716b-581d-4718-8a3d-3f26464467ec)
 
+## ALU Test
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/24ce73c5-9871-43d1-95c1-b5464ce1f8f6)
+
 ## Design steps
 There are 4 state elements program counter, instruction memory, register file and data memory
 
