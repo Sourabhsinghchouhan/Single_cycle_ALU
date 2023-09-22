@@ -38,7 +38,7 @@ onto RD.
             dut.Register_File.Register[9] = 24;
 ```
 <p align="center">
-    <img width="200" src="![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/84662f07-4278-4d4f-b098-6e40f71aa091)
+    <img width="200" src="(https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/84662f07-4278-4d4f-b098-6e40f71aa091)
 ">
 </p>
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/84662f07-4278-4d4f-b098-6e40f71aa091)
