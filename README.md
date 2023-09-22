@@ -34,7 +34,8 @@ There are 4 state elements program counter, instruction memory, register file an
 **Data memory** has a single read/write port. If the write enable, WE, is 1, it writes data
 WD into address A on the rising edge of the clock. If the write enable is 0, it reads address A
 onto RD.
-
+## Test:
+### Test-1:
 ```
             dut.Instruction_Memory.mem[0] = 32'hFFC4A303;
             dut.Data_Memory.mem[20] = 15;
