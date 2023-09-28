@@ -38,7 +38,11 @@ There are 4 state elements program counter, instruction memory, register file an
 WD into address A on the rising edge of the clock. If the write enable is 0, it reads address A
 onto RD.
 ## Tests:
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/e9cee4aa-2ff5-42ab-a836-78723c5a7a2e)
+
 ### Test-1: LW
+![Uploading image.png…]()
+
 ```
             dut.Instruction_Memory.mem[0] = 32'hFFC4A303;
             dut.Data_Memory.mem[20] = 15;
