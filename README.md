@@ -51,7 +51,8 @@ onto RD.
 
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/84662f07-4278-4d4f-b098-6e40f71aa091)
 ### Test-2: SW
-![Uploading image.png…]()
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/37bfcbdb-8248-4be4-80b0-fe9326bc7358)
+
 ```
 ```
 
