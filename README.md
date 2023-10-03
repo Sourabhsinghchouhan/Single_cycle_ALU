@@ -58,5 +58,11 @@ onto RD.
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/37bfcbdb-8248-4be4-80b0-fe9326bc7358)
 
 ```
+            dut.Instruction_Memory.mem[1] = 32'h0042A423;
+            dut.Data_Memory.mem[32] = 5;
+            dut.Register_File.Register[5] = 24;
 ```
+
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/7b6d0bb9-982a-4884-82e1-1b9ed353b529)
+
 
