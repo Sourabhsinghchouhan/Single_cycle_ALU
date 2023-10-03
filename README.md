@@ -42,10 +42,10 @@ onto RD.
 
 ### Test-1: LW
 
-[^1]:Source register -> x6
-[^2]:Base address -> [x9] = 24
-[^3]:Offset value -> -4
-[^4]:Effective address -> 24-4=20
+* Source register -> x6
+* Base address -> [x9] = 24
+* Offset value -> -4
+* Effective address -> 24-4=20
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/71b3c028-77b8-407b-8836-7e1dafec4cb4)
 
 ```
