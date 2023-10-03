@@ -66,7 +66,5 @@ onto RD.
             dut.Data_Memory.mem[32] = 5;
             dut.Register_File.Register[5] = 24;
 ```
-
-![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/7b6d0bb9-982a-4884-82e1-1b9ed353b529)
-
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/e1b4e9ac-830f-46bd-b2b4-946d1aef5056)
 
