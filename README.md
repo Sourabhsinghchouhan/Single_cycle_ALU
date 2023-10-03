@@ -55,6 +55,10 @@ onto RD.
 
 
 ### Test-2: SW
+
+```
+            sw x4, 0x8(x5)
+```
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/37bfcbdb-8248-4be4-80b0-fe9326bc7358)
 
 ```
