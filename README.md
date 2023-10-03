@@ -50,6 +50,9 @@ onto RD.
 ```
 
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/84662f07-4278-4d4f-b098-6e40f71aa091)
+
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/5e5afe1a-abdb-4acd-9d23-53be9db1bd1c)
+
 ### Test-2: SW
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/37bfcbdb-8248-4be4-80b0-fe9326bc7358)
 
