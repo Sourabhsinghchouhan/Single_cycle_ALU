@@ -49,9 +49,10 @@ onto RD.
             dut.Register_File.Register[9] = 24;
 ```
 
-![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/84662f07-4278-4d4f-b098-6e40f71aa091)
+//![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/84662f07-4278-4d4f-b098-6e40f71aa091)
 
-![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/5e5afe1a-abdb-4acd-9d23-53be9db1bd1c)
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/db2e31db-155a-40c9-9ea2-5f1567d54784)
+
 
 ### Test-2: SW
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/37bfcbdb-8248-4be4-80b0-fe9326bc7358)
