@@ -46,7 +46,7 @@ onto RD.
 * Base address -> [x9] = 24
 * Offset value -> -4
 * Effective address -> 24-4=20
-![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/71b3c028-77b8-407b-8836-7e1dafec4cb4)
+* Data_Memory[20] = 15
 
 ```
             dut.Instruction_Memory.mem[0] = 32'hFFC4A303;
@@ -58,7 +58,7 @@ onto RD.
 
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/db2e31db-155a-40c9-9ea2-5f1567d54784)
 
-
+In this data from data memory write back to WD3.
 ### Test-2: SW
 
 ```
