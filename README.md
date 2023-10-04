@@ -74,4 +74,4 @@ In this data from data memory write back to WD3.
             dut.Register_File.Register[4] = 5;
 ```
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/432f7acb-8223-4d62-a389-6dedb37616ba)
-Here write enable is off.
+
