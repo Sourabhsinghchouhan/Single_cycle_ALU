@@ -60,15 +60,18 @@ onto RD.
 
 In this data from data memory write back to WD3.
 ### Test-2: SW
-
+* A3(Register_file)->Source register -> x4
+* A1(Register_file)->Base address -> [x5] = 7
+* Offset value -> 8
+* Effective address -> 7+8=15
+* Data_Memory[15] = 5
 ```
             sw x4, 0x8(x5)
 ```
-![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/37bfcbdb-8248-4be4-80b0-fe9326bc7358)
 
 ```         dut.Instruction_Memory.mem[1] = 32'h0042A423;
             dut.Data_Memory.mem[15] = 7;
             dut.Register_File.Register[4] = 5;
 ```
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/432f7acb-8223-4d62-a389-6dedb37616ba)
-
+Here write enable is off.
