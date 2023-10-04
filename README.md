@@ -42,8 +42,8 @@ onto RD.
 
 ### Test-1: LW
 
-* Source register -> x6
-* Base address -> [x9] = 24
+* A3(Register_file)->Source register -> x6
+* A1(Register_file)->Base address -> [x9] = 24
 * Offset value -> -4
 * Effective address -> 24-4=20
 * Data_Memory[20] = 15
@@ -66,10 +66,9 @@ In this data from data memory write back to WD3.
 ```
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/37bfcbdb-8248-4be4-80b0-fe9326bc7358)
 
+```         dut.Instruction_Memory.mem[1] = 32'h0042A423;
+            dut.Data_Memory.mem[15] = 7;
+            dut.Register_File.Register[4] = 5;
 ```
-            dut.Instruction_Memory.mem[1] = 32'h0042A423;
-            dut.Data_Memory.mem[32] = 5;
-            dut.Register_File.Register[5] = 24;
-```
-![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/e1b4e9ac-830f-46bd-b2b4-946d1aef5056)
+![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/432f7acb-8223-4d62-a389-6dedb37616ba)
 
