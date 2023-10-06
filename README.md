@@ -82,3 +82,13 @@ In this data from data memory write back to WD3.
               dut.Instruction_Memory.mem[0] = 32'h00500293;    //addi x5 x0 5
   ``
   ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/57035984-6edb-4952-9da3-09253908daa7)
+
+  ### Test-4: Addition
+  * [x5] <- 5
+  * [x6] <- [x5] + 6
+    ```
+            dut.Instruction_Memory.mem[0] = 32'h00500293;    //addi x5 x0 5
+            dut.Instruction_Memory.mem[4] = 32'h00628313;    //addi x6 x5 6
+    ```
+    ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/c70d52cd-4e54-4c4c-becf-a81a53443869)
+  
