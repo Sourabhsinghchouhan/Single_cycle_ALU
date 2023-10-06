@@ -78,10 +78,10 @@ In this data from data memory write back to WD3.
 ### Test-3: ADDI
 * Immediate data = 5
 * immediate data is stored in x5 register through this instruction
-  
-  ``
+
+  ```
               dut.Instruction_Memory.mem[0] = 32'h00500293;    //addi x5 x0 5
-  ``
+  ```
   
   ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/57035984-6edb-4952-9da3-09253908daa7)
 
