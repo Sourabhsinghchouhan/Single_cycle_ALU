@@ -49,7 +49,7 @@ onto RD.
 * Data_Memory[20] = 15
 
 ```
-            dut.Instruction_Memory.mem[0] = 32'hFFC4A303;
+            dut.Instruction_Memory.mem[0] = 32'hFFC4A303;            //lw x6 -4(x9)
             dut.Data_Memory.mem[20] = 15;
             dut.Register_File.Register[9] = 24;
 ```
@@ -75,3 +75,10 @@ In this data from data memory write back to WD3.
 ```
 ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/432f7acb-8223-4d62-a389-6dedb37616ba)
 
+### Test-3: ADDI
+* Immediate data = 5
+* immediate data is stored in x5 register through this instruction
+  ``
+              dut.Instruction_Memory.mem[0] = 32'h00500293;    //addi x5 x0 5
+  ``
+  ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/3560187f-badb-4a69-ad88-398da2534033)
