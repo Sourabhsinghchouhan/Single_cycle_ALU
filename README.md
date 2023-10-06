@@ -78,17 +78,34 @@ In this data from data memory write back to WD3.
 ### Test-3: ADDI
 * Immediate data = 5
 * immediate data is stored in x5 register through this instruction
+  
   ``
               dut.Instruction_Memory.mem[0] = 32'h00500293;    //addi x5 x0 5
   ``
   ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/57035984-6edb-4952-9da3-09253908daa7)
 
-  ### Test-4: Addition
+  ### Test-4: Addition using immediate
   * [x5] <- 5
   * [x6] <- [x5] + 6
+    
     ```
             dut.Instruction_Memory.mem[0] = 32'h00500293;    //addi x5 x0 5
             dut.Instruction_Memory.mem[4] = 32'h00628313;    //addi x6 x5 6
     ```
     ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/c70d52cd-4e54-4c4c-becf-a81a53443869)
+
+    ### Test-5: Immediate and register
+    * [x1] <- 10
+    * [x2] <- 9
+    * [x3] <- [x1] & [x2]
+    * [x4] <- [x1] | [x2]
+ 
+   ```
+            dut.Instruction_Memory.mem[0] = 32'h00A00093;      //addi x1 x0 10
+            dut.Instruction_Memory.mem[4] = 32'h00900113;      //addi x2 x0 9
+            dut.Instruction_Memory.mem[8] = 32'h0020F1B3;      //and x3 x1 x2
+            dut.Instruction_Memory.mem[12] = 32'h0020E233;     //or x4 x1 x2
+   ```    
+    ![image](https://github.com/Sourabhsinghchouhan/Single_cycle_ALU/assets/145453605/f662451e-5fd4-41e9-8c9e-687047319ebe)
+
   
